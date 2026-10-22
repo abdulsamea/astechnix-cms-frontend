@@ -714,8 +714,8 @@ function FloatingAuditButton() {
       className="fixed bottom-6 left-1/2 z-40 -translate-x-1/2 lg:hidden"
       aria-label="Scroll to lead form"
     >
-      <span className="btn-primary !px-6 !py-3 shadow-card-hover">
-        <ArrowUp className="h-4 w-4" />
+      <span className="btn-primary !px-6 !py-3 shadow-card-hover inline-flex items-center gap-2 whitespace-nowrap">
+        <ArrowUp className="h-4 w-4 shrink-0" />
         Request a Quote
       </span>
     </motion.button>
