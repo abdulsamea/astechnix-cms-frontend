@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <Seo
         meta={{
-          title: "AStechnix | IT Infrastructure and Remote Support",
+          title: "AStechnix | Managed IT Infrastructure & Remote Support",
           description:
             "AStechnix helps growing teams manage endpoints, protect devices, care for cloud environments, and resolve day-to-day IT issues.",
         }}
