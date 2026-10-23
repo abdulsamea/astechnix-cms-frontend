@@ -182,13 +182,13 @@ export function CookiePreferenceCenter() {
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     onClick={handleAcceptAll}
-                    className="btn-primary justify-center !py-2 !text-xs"
+                    className="btn-primary inline-flex items-center justify-center text-center !py-2 !text-xs px-1"
                   >
                     Accept
                   </button>
                   <button
                     onClick={handleRejectAll}
-                    className="btn-secondary justify-center !py-2 !text-xs"
+                    className="btn-secondary inline-flex items-center justify-center text-center !py-2 !text-xs px-1"
                   >
                     Reject
                   </button>
@@ -197,7 +197,7 @@ export function CookiePreferenceCenter() {
                       setModalOpen(true);
                       setBannerVisible(false);
                     }}
-                    className="btn-dark justify-center !py-2 !text-xs"
+                    className="btn-dark inline-flex items-center justify-center text-center !py-2 !text-xs px-1 truncate"
                   >
                     Preferences
                   </button>
